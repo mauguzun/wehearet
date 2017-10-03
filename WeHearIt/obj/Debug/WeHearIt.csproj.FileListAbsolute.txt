@@ -3,9 +3,9 @@ c:\users\maugu\documents\visual studio 2017\Projects\WeHearIt\WeHearIt\bin\Debug
 c:\users\maugu\documents\visual studio 2017\Projects\WeHearIt\WeHearIt\bin\Debug\WeHearIt.pdb
 c:\users\maugu\documents\visual studio 2017\Projects\WeHearIt\WeHearIt\bin\Debug\WebDriver.dll
 c:\users\maugu\documents\visual studio 2017\Projects\WeHearIt\WeHearIt\bin\Debug\WebDriver.xml
-c:\users\maugu\documents\visual studio 2017\Projects\WeHearIt\WeHearIt\obj\Debug\WeHearIt.csprojResolveAssemblyReference.cache
 c:\users\maugu\documents\visual studio 2017\Projects\WeHearIt\WeHearIt\obj\Debug\WeHearIt.Form1.resources
 c:\users\maugu\documents\visual studio 2017\Projects\WeHearIt\WeHearIt\obj\Debug\WeHearIt.Properties.Resources.resources
 c:\users\maugu\documents\visual studio 2017\Projects\WeHearIt\WeHearIt\obj\Debug\WeHearIt.csproj.GenerateResource.Cache
 c:\users\maugu\documents\visual studio 2017\Projects\WeHearIt\WeHearIt\obj\Debug\WeHearIt.exe
 c:\users\maugu\documents\visual studio 2017\Projects\WeHearIt\WeHearIt\obj\Debug\WeHearIt.pdb
+C:\Users\maugu\documents\visual studio 2017\Projects\WeHearIt\WeHearIt\obj\Debug\WeHearIt.csprojResolveAssemblyReference.cache

@@ -21,7 +21,6 @@ namespace WeHearIt
         private  int pause = 5000;
         private ChromeDriver _driver;
         private Links _links;
-        ReadOnlyCollection<Cookie>  _cookie;
 
         List<string> _url;
         private string filename = "links.txt";
@@ -32,8 +31,7 @@ namespace WeHearIt
             
             _links = new Links();
             ex = new ExistReaderWriter();
-            this.con.Text += ex.GetCount().ToString();
-
+           
         }
 
         private void loginToolStripMenuItem_Click(object sender, EventArgs e)
@@ -43,11 +41,10 @@ namespace WeHearIt
                 this._url = new List<string>();
             }
             
-           
         }
 
-  
-        
+
+
 
         private void followToolStripMenuItem_Click_1(object sender, EventArgs e)
         {
@@ -87,9 +84,8 @@ namespace WeHearIt
                 _driver.FindElementById("user_password_login").SendKeys("trance12");
               //  Thread.Sleep(300);
                 _driver.FindElementById("user_password_login").SendKeys(OpenQA.Selenium.Keys.Enter);
-                this._cookie = _driver.Manage().Cookies.AllCookies;
-               
-                
+                this.con.Text += $"{ex.GetCount().ToString()} pinned ,and {_url.Count().ToString()}";
+
             }
             catch { }
             
@@ -104,7 +100,10 @@ namespace WeHearIt
         }
         private ChromeDriver _GetDriver ()
         {
-            var driver = new ChromeDriver();
+            ChromeOptions option = new ChromeOptions();
+         //  option.AddArgument("--headless");
+         //  option.AddArgument("--no-startup-window");
+            var driver = new ChromeDriver(option);
             
             return driver;
 
@@ -139,7 +138,7 @@ namespace WeHearIt
         {
           
             var driver = this._GetDriver();
-            driver.Manage().Timeouts().ImplicitWait = new TimeSpan(0,0,25);
+            driver.Manage().Timeouts().ImplicitWait = new TimeSpan(0,0,45);
             this._MakeLogin(driver);
             Task.Run(() => MakePost(driver));
         }
@@ -158,7 +157,7 @@ namespace WeHearIt
                 {
                     driver.Url = _links.MakePost;
                     driver.Navigate().Refresh();
-                    Thread.Sleep(pause);
+                    //Thread.Sleep(pause);
 
                     string url = this._url.FirstOrDefault();
                     var input = driver.FindElement(By.Name("upload_url"));
@@ -167,10 +166,16 @@ namespace WeHearIt
 
                     var button = driver.FindElementByCssSelector("div.upload-url-button.btn.btn-block.bg-primary.upload-input");
                     button.Click();
-
                     Thread.Sleep(pause);
 
                     var divs = driver.FindElements(By.ClassName("upload-image"));
+                    if(divs.Count() ==0)
+                    {
+                        _RemoveBadUrl(url);
+                        throw new Exception();
+                    }
+                        
+                    
 
                     bool clicked = false;
                     foreach(var div in divs)
@@ -188,13 +193,12 @@ namespace WeHearIt
 
                     if(!clicked)
                     {
-                        this._url.Remove(url);
-                        this.SaveLinks();
-                        return;
+                        _RemoveBadUrl(url);
+                        throw new Exception();
                     }
-                       
 
-                    Thread.Sleep(pause);
+
+                   // Thread.Sleep(pause);
 
                     var lastButton = driver.FindElementByCssSelector("input.btn.bg-primary.btn-wide");
                     lastButton.Click();
@@ -210,6 +214,13 @@ namespace WeHearIt
                 }
             }
            
+        }
+
+        private void _RemoveBadUrl(string url)
+        {
+            this._url.Remove(url);
+            this.SaveLinks();
+            return;
         }
 
         private void Form1_Load(object sender, EventArgs e)
