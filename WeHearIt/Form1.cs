@@ -166,7 +166,7 @@ namespace WeHearIt
 
                     var button = driver.FindElementByCssSelector("div.upload-url-button.btn.btn-block.bg-primary.upload-input");
                     button.Click();
-                    Thread.Sleep(pause);
+                 //   Thread.Sleep(pause);
 
                     var divs = driver.FindElements(By.ClassName("upload-image"));
                     if(divs.Count() ==0)
@@ -204,7 +204,7 @@ namespace WeHearIt
                     lastButton.Click();
                     ex.Save();
 //
-                 //   Thread.Sleep(pause/2);
+                   Thread.Sleep(pause/2);
                     this._url.Remove(url);
                     this.SaveLinks();
                 }

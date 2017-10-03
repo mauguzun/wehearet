@@ -231,3 +231,19 @@
 [1003/171709.755:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights.  (0xc0000022)
 [1003/171709.757:ERROR:exception_snapshot_win.cc(87)] thread ID 7128 not found in process
 [1003/171709.757:WARNING:crash_report_exception_handler.cc(62)] ProcessSnapshotWin::Initialize failed
+[1003/174852.317:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[1003/174852.318:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[1003/174852.318:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[1003/174852.318:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[1003/174852.318:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[1003/174852.318:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[1003/174852.318:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights.  (0xc0000022)
+[1003/174852.319:ERROR:exception_snapshot_win.cc(87)] thread ID 20544 not found in process
+[1003/174852.319:WARNING:crash_report_exception_handler.cc(62)] ProcessSnapshotWin::Initialize failed
+[1003/175748.017:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[1003/175748.019:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[1003/175748.019:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[1003/175748.019:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[1003/175748.019:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights.  (0xc0000022)
+[1003/175748.052:ERROR:exception_snapshot_win.cc(87)] thread ID 16620 not found in process
+[1003/175748.053:WARNING:crash_report_exception_handler.cc(62)] ProcessSnapshotWin::Initialize failed
