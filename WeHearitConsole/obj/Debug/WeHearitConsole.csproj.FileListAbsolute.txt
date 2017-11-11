@@ -1,0 +1,8 @@
+C:\Users\maugu\documents\visual studio 2017\Projects\WeHearIt\WeHearitConsole\bin\Debug\WeHearitConsole.exe.config
+C:\Users\maugu\documents\visual studio 2017\Projects\WeHearIt\WeHearitConsole\bin\Debug\WeHearitConsole.exe
+C:\Users\maugu\documents\visual studio 2017\Projects\WeHearIt\WeHearitConsole\bin\Debug\WeHearitConsole.pdb
+C:\Users\maugu\documents\visual studio 2017\Projects\WeHearIt\WeHearitConsole\bin\Debug\WebDriver.dll
+C:\Users\maugu\documents\visual studio 2017\Projects\WeHearIt\WeHearitConsole\bin\Debug\WebDriver.xml
+C:\Users\maugu\documents\visual studio 2017\Projects\WeHearIt\WeHearitConsole\obj\Debug\WeHearitConsole.exe
+C:\Users\maugu\documents\visual studio 2017\Projects\WeHearIt\WeHearitConsole\obj\Debug\WeHearitConsole.pdb
+C:\Users\maugu\Documents\Visual Studio 2017\Projects\WeHearIt\WeHearitConsole\obj\Debug\WeHearitConsole.csprojResolveAssemblyReference.cache
