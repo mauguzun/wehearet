@@ -104,6 +104,8 @@ namespace WeHearitConsole
             try
             {
                 _driver.Url = _links.DefaultUrl;
+
+                var x = _driver.FindElementsById("user_email_or_username");
                 _driver.FindElementById("user_email_or_username").SendKeys("lovedrugs@inbox.lv");
                 _driver.FindElementById("user_password_login").SendKeys("trance12");
                 _driver.FindElementById("user_password_login").SendKeys(OpenQA.Selenium.Keys.Enter);

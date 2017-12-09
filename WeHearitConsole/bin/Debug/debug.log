@@ -7,3 +7,38 @@
 [1110/201705.938:ERROR:process_info.cc(632)] range at 0x23cf2c3800000000, size 0x1fa fully unreadable
 [1110/201710.484:ERROR:process_info.cc(632)] range at 0x23cf2c5800000000, size 0x1fa fully unreadable
 [1110/201710.484:ERROR:process_info.cc(632)] range at 0x0, size 0x1fa fully unreadable
+[1115/102207.819:ERROR:process_info.cc(632)] range at 0xe14d2b8a00000000, size 0x1e6 fully unreadable
+[1115/102207.825:ERROR:process_info.cc(632)] range at 0xe14d2baa00000000, size 0x1e6 fully unreadable
+[1115/102207.825:ERROR:process_info.cc(632)] range at 0x0, size 0x1e6 fully unreadable
+[1115/102207.887:ERROR:file_io_win.cc(170)] CreateFile C:\Users\maugu\AppData\Local\Temp\scoped_dir23312_27051\Crashpad\reports\933b445c-417f-4b2b-80af-73a239e2cf40.dmp: The system cannot find the path specified. (0x3)
+[1115/102207.889:ERROR:crash_report_exception_handler.cc(97)] PrepareNewCrashReport failed
+[1116/163524.517:ERROR:process_info.cc(632)] range at 0x4672b8400000000, size 0x1a1 fully unreadable
+[1116/163524.519:ERROR:process_info.cc(632)] range at 0x4672ba400000000, size 0x1a1 fully unreadable
+[1116/163524.519:ERROR:process_info.cc(632)] range at 0x0, size 0x1a1 fully unreadable
+[1126/162741.643:ERROR:process_info.cc(632)] range at 0xdff2c3200000000, size 0x29f fully unreadable
+[1126/162741.645:ERROR:process_info.cc(632)] range at 0xdff2c5200000000, size 0x29f fully unreadable
+[1126/162741.645:ERROR:process_info.cc(632)] range at 0x0, size 0x29f fully unreadable
+[1126/162742.308:ERROR:process_info.cc(380)] UncheckedAllocate
+[1126/163135.859:ERROR:process_info.cc(632)] range at 0x57802c3200000000, size 0x2a6 fully unreadable
+[1126/163135.878:ERROR:process_info.cc(632)] range at 0x57802c5200000000, size 0x2a6 fully unreadable
+[1126/163135.878:ERROR:process_info.cc(632)] range at 0x0, size 0x2a6 fully unreadable
+[1126/163136.444:ERROR:process_info.cc(380)] UncheckedAllocate
+[1126/163207.524:ERROR:process_info.cc(632)] range at 0xe97c2b9600000000, size 0x18a fully unreadable
+[1126/163207.524:ERROR:process_info.cc(632)] range at 0xe97c2bb600000000, size 0x18a fully unreadable
+[1126/163207.524:ERROR:process_info.cc(632)] range at 0x0, size 0x18a fully unreadable
+[1126/163207.641:ERROR:process_info.cc(380)] UncheckedAllocate
+[1127/165316.393:ERROR:process_info.cc(632)] range at 0x56f12b7000000000, size 0x184 fully unreadable
+[1127/165317.375:ERROR:process_info.cc(632)] range at 0x56f12b9000000000, size 0x184 fully unreadable
+[1127/165317.375:ERROR:process_info.cc(632)] range at 0x0, size 0x184 fully unreadable
+[1130/012419.385:ERROR:process_info.cc(632)] range at 0x27762b8600000000, size 0x24a fully unreadable
+[1130/012421.976:ERROR:process_info.cc(632)] range at 0x27762ba600000000, size 0x24a fully unreadable
+[1130/012421.977:ERROR:process_info.cc(632)] range at 0x0, size 0x24a fully unreadable
+[1202/202638.647:ERROR:process_info.cc(632)] range at 0xa3d12b7800000000, size 0x21b fully unreadable
+[1202/202640.236:ERROR:process_info.cc(632)] range at 0xa3d12b9800000000, size 0x21b fully unreadable
+[1202/202640.236:ERROR:process_info.cc(632)] range at 0x0, size 0x21b fully unreadable
+[1204/145329.905:ERROR:process_info.cc(632)] range at 0xa8792c3800000000, size 0x221 fully unreadable
+[1204/145330.952:ERROR:process_info.cc(632)] range at 0xa8792c5800000000, size 0x221 fully unreadable
+[1204/145330.953:ERROR:process_info.cc(632)] range at 0x0, size 0x221 fully unreadable
+[1205/003634.882:ERROR:process_info.cc(632)] range at 0x1f132b7400000000, size 0x1fa fully unreadable
+[1205/003634.884:ERROR:process_info.cc(632)] range at 0x1f132b9400000000, size 0x1fa fully unreadable
+[1205/003634.884:ERROR:process_info.cc(632)] range at 0x0, size 0x1fa fully unreadable
