@@ -6,3 +6,12 @@ C:\Users\maugu\documents\visual studio 2017\Projects\WeHearIt\WeHearitConsole\bi
 C:\Users\maugu\documents\visual studio 2017\Projects\WeHearIt\WeHearitConsole\obj\Debug\WeHearitConsole.exe
 C:\Users\maugu\documents\visual studio 2017\Projects\WeHearIt\WeHearitConsole\obj\Debug\WeHearitConsole.pdb
 C:\Users\maugu\Documents\Visual Studio 2017\Projects\WeHearIt\WeHearitConsole\obj\Debug\WeHearitConsole.csprojResolveAssemblyReference.cache
+C:\wehearet\WeHearitConsole\bin\Debug\WeHearitConsole.exe.config
+C:\wehearet\WeHearitConsole\bin\Debug\WeHearitConsole.exe
+C:\wehearet\WeHearitConsole\bin\Debug\WeHearitConsole.pdb
+C:\wehearet\WeHearitConsole\bin\Debug\WebDriver.dll
+C:\wehearet\WeHearitConsole\bin\Debug\WebDriver.xml
+C:\wehearet\WeHearitConsole\obj\Debug\WeHearitConsole.csproj.CoreCompileInputs.cache
+C:\wehearet\WeHearitConsole\obj\Debug\WeHearitConsole.csproj.CopyComplete
+C:\wehearet\WeHearitConsole\obj\Debug\WeHearitConsole.exe
+C:\wehearet\WeHearitConsole\obj\Debug\WeHearitConsole.pdb

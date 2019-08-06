@@ -1,6 +1,5 @@
 ﻿using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
-using OpenQA.Selenium.PhantomJS;
 using OpenQA.Selenium.Remote;
 using System;
 using System.Collections.Generic;
@@ -61,7 +60,7 @@ namespace WeHearitConsole
             Task.Run(() => _LikeMethod(driver));
         }
 
-        private void followToolStripMenuItem_Click_1()
+        private void Folow()
         {
             for (int i = 200; i < 493; i++)
             {
@@ -197,8 +196,23 @@ namespace WeHearitConsole
                     //Thread.Sleep(pause);
 
                     string url = this._url.FirstOrDefault();
-                    var input = driver.FindElement(By.Name("upload_url"));
-                    input.SendKeys(url);
+                    var inputs = driver.FindElements(By.TagName("input"));
+                    foreach(var input in inputs)
+                    {
+
+                         if(input.Displayed && input.Displayed)
+                        {
+                            var x = input.GetAttribute("name");
+
+                            if (x == "upload_url")
+                                input.SendKeys(url);
+
+                            var xx = 123;
+                        }
+                       
+                       // input.SendKeys(url);
+                    }
+                   
 
 
                     var button = driver.FindElementByCssSelector("div.upload-url-button.btn.btn-block.bg-primary.upload-input");
@@ -277,11 +291,13 @@ namespace WeHearitConsole
             var proccess = Process.GetProcesses();
             foreach (Process pr in proccess)
             {
-                if (pr.ProcessName.ToLower().Contains("chromedriver"))
+                if (pr.ProcessName.ToLower().Contains("chrome"))
                 {
                    
                     Console.WriteLine(pr.ProcessName);
-                    pr.Kill();
+                    try { pr.Kill(); }
+                    catch { }
+                  
                 }
 
             }
